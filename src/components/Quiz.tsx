@@ -42,7 +42,6 @@ const Quiz: React.FC = () => {
             savedAnswers 
           } = JSON.parse(savedProgress);
           
-          
           if (savedQuestions.length === newQuestions.length) {
             setQuestions(savedQuestions);
             setCurrentQuestionIndex(savedCurrentIndex);
